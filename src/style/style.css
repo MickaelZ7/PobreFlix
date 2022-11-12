@@ -1,0 +1,55 @@
+* {
+    margin: 0 auto;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.input-pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.form-control::placeholder {
+    text-align: center;
+}
+
+main {
+    background-color: black;
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: repeat(auto-fill, 110px);
+    margin-top: 20px;
+}
+
+.img-filme {
+    width: 140px;
+}
+
+.title-filme {
+    color: white;
+    font-weight: bolder;
+}
+
+#lista-filme {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+}
